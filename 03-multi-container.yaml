@@ -1,0 +1,10 @@
+apiVersion: V1 
+kind: Pod 
+metadata: 
+  name: mutliple containers 
+spec: 
+ containers:
+   - name: nginx 
+     image: nginx 
+   - name: almalinux 
+     image: almalinux:9 
