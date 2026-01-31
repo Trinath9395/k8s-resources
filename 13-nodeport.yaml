@@ -26,7 +26,7 @@ metadata:
     component: backend 
     version: "1.0.0"
     demo: node-port 
-  spec: 
-    containers: 
-    - name: nginx 
-      image: nginx 
+spec: 
+  containers: 
+  - name: nginx 
+    image: nginx 
