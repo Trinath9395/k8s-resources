@@ -32,8 +32,8 @@ spec:
     persistentVolumeClaim:
       claimName: ebs-static
 ---
-kind: Service
 apiVersion: v1
+kind: Service
 metadata:
   name: nginx-lb
 spec:
