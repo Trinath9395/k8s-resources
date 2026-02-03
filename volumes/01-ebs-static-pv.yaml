@@ -9,5 +9,5 @@ spec:
     storage: 30Gi 
   csi: 
     driver: ebs.csi.aws.com 
-    fstype: ext4 
+    fsType: ext4 
     volumeHandle: vol-0172d8fa7c8668e5f
