@@ -32,13 +32,13 @@ kind: Service
 metadata: 
   name: nginx
 spec: 
- type: LoadBalancer 
- selector: 
-  app: nginx 
-  tier: web 
-  purpose: deployment 
-ports: 
-- protocol: TCP 
-  port: 80 
-  targetPort: 80 
-  nodePort: 30007
+  type: LoadBalancer 
+  selector: 
+    app: nginx 
+    tier: web 
+    purpose: deployment 
+  ports: 
+  - protocol: TCP 
+    port: 80 
+    targetPort: 80 
+    nodePort: 30007
