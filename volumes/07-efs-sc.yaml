@@ -2,7 +2,7 @@ apiVersion: storage.k8s.io/v1
 kind: StorageClass
 metadata:
   name: efs-expense 
-provisioner: ebs.csi.aws.com
+provisioner: efs.csi.aws.com
 parameters: 
   provisioingMode: efs-ap
   fileSytemId: fs-0c32c2309f2eb5c1e
