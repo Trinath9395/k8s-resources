@@ -31,7 +31,7 @@ spec:
       claimName: efs-static
 
 --- 
-apiVesion: v1 
+apiVersion: v1 
 kind: Service 
 metadata: 
   name: nginx-lb 
